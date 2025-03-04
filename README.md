@@ -84,7 +84,7 @@ Com os dados armazenados no Google BigQuery, você pode usar o Power BI para vis
 Exemplo de Uso
 Após rodar o código, você poderá acessar o BigQuery para visualizar os dados coletados. No Power BI, você pode visualizar gráficos como:
 
-Preço das criptomoedas ao longo do tempo.
-Variação percentual de preço.
-Volume de transações.
-Outras métricas relevantes.
+- **Preço das criptomoedas ao longo do tempo.**
+- **Variação percentual de preço.**
+- **Volume de transações.**
+- **Outras métricas relevantes.**
