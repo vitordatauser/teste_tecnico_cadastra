@@ -82,9 +82,7 @@ Visualização no Power BI
 Com os dados armazenados no Google BigQuery, você pode usar o Power BI para visualizar os dados e criar dashboards interativos. No Power BI, basta usar o conector do Google BigQuery, fazer login na sua conta do GCP e selecionar o banco de dados com os dados coletados. Você pode criar gráficos e relatórios para analisar as criptomoedas.
 
 Exemplo de Uso
-Após rodar o código, você poderá acessar o BigQuery para visualizar os dados coletados. No Power BI, você pode visualizar gráficos como:
+Após rodar o código, você poderá acessar o BigQuery para visualizar os dados coletados. No Power BI, você pode visualizar gráficos como abaixo:
 
-- **Preço das criptomoedas ao longo do tempo.**
-- **Variação percentual de preço.**
-- **Volume de transações.**
-- **Outras métricas relevantes.**
+![Dashboard no Power BI](src/Dash_Crypto.png)
+
