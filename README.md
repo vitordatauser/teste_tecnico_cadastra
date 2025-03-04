@@ -75,13 +75,13 @@ No código, a API da Binance é acessada utilizando a biblioteca python-binance.
 # Tratamento de Dados
 Os dados são extraídos utilizando a função get_historical_klines da Binance e convertidos em um dataframe do pandas. O tratamento dos dados inclui a conversão de timestamps para o fuso horário de São Paulo, a criação de novas métricas (como a variação do preço e amplitude da variação), e a seleção das colunas necessárias para análise.
 
-Envio para o Google BigQuery
+## Envio para o Google BigQuery
 Após o processamento dos dados, os dados são enviados para o Google BigQuery utilizando a função to_gbq da biblioteca pandas_gbq. Os dados são armazenados nas tabelas btc, eth e sol no projeto do BigQuery.
 
-Visualização no Power BI
+## Visualização no Power BI
 Com os dados armazenados no Google BigQuery, você pode usar o Power BI para visualizar os dados e criar dashboards interativos. No Power BI, basta usar o conector do Google BigQuery, fazer login na sua conta do GCP e selecionar o banco de dados com os dados coletados. Você pode criar gráficos e relatórios para analisar as criptomoedas.
 
-Exemplo de Uso
+## Exemplo de Uso
 Após rodar o código, você poderá acessar o BigQuery para visualizar os dados coletados. No Power BI, você pode visualizar gráficos como abaixo:
 
 ![Dashboard no Power BI](src/Dash_Crypto.png)
