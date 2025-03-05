@@ -40,11 +40,7 @@ Este projeto é uma aplicação Python capaz de acessar a API pública da Binanc
     cd teste_tecnico_cadastra
 3. Instale as dependências:
      ```bash
-    %pip install google-cloud
-    %pip install pyarrow
-    %pip install google-cloud-bigquery
-    %pip install pandas-gbq
-    %pip install python-binance
+    pip install -r requirements.txt
 
 ## Arquivo de Credenciais do GCP
 

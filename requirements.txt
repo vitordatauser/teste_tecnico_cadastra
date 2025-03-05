@@ -1,6 +1,7 @@
-%pip install google-cloud
-%pip install pyarrow
-%pip install google-cloud-bigquery
-%pip install pandas-gbq
-%pip install python-binance
-
+google-cloud-bigquery
+google-auth
+pandas
+numpy
+pandas-gbq
+python-binance
+pyarrow
